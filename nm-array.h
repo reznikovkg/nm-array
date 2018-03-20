@@ -1,17 +1,16 @@
-#ifndef REZNIKOKG_IPN_H
+#ifndef NM_ARRAY_H
 
 /*
 	Author: reznikovkg
 	GitHub: https://github.com/reznikovkg
 	Email: kosrez1@yandex.ru
 
-	Project name: Interpolation polinom by Newton
-	File name: nm-array.h
-	GitHub Repository: https://github.com/reznikovkg/nm-ipN
+	File: nm-array.h
+	GitHub Repository: https://github.com/reznikovkg/nm-array
 */
 
-#define REZNIKOKG_IPN_H
+#define NM_ARRAY_H
 
-#include "include/nm_array_class.h"
+#include "include/nm-array-class.h"
 
-#endif REZNIKOKG_IPN_H
+#endif NM_ARRAY_H

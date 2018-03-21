@@ -36,10 +36,11 @@ public:
 	}
 
 	double getNMA(int ai, int aj) { return this->nmA[ai][aj]; }
-	int getiA() { return this->iA; }
-	int getjA() { return this->jA; }
-
 	void setNMA(int ai, int aj, double ak) { nmA[ai][aj] = ak; }
+
+	int getiA() { return this->iA; } void setiA(int ia) { this->iA = ia; }
+	int getjA() { return this->jA; } void setjA(int ja) { this->jA = ja; }
+
 
 	void printNMA() {
 		for (int i = 0; i < iA; i++) {
@@ -48,6 +49,10 @@ public:
 			}
 			cout << '\n';
 		}
+	}
+	double** getNMA() { return nmA; }
+	void setNMA(double **new_nmA) {
+		nmA = new_nmA;
 	}
 	~nm_Array() {}
 };
